@@ -1,7 +1,7 @@
 {
   "name": "hyperlink-helper",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wraps selected text in a hyperlink using a URL copied to the clipboard.",
   "keywords": [],
   "activationCommands": {

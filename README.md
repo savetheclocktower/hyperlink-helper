@@ -1,8 +1,10 @@
 # Hyperlink Helper
 
-An [Atom](https://atom.io) package for wrapping selected text in a hyperlink.
+An [Atom](https://atom.io) package for wrapping selected text in a hyperlink. The URL for the hyperlink comes from your clipboard.
 
 Inspired by the [similar bundle for TextMate](https://github.com/textmate/hyperlink-helper.tmbundle).
+
+![demo](https://user-images.githubusercontent.com/3450/33003641-997ee3e4-cd81-11e7-8a84-96e71be21404.gif)
 
 ## Usage
 
@@ -60,10 +62,6 @@ Custom keybindings can be added by referencing the above commands.  To learn mor
 
 * Possibly add more formats to the built-in guessing if it turns out I've underestimated the popularity of, say, Textile.
 * Insert a modified snippet if the selection is empty so that the anchor text gets its own tab stop.
-
-## Contributing
-
-Always feel free to help out!  Whether it's filing bugs and feature requests or working on some of the open issues, Atom's [contributing guide](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) will help get you started while the [guide for contributing to packages](https://github.com/atom/atom/blob/master/docs/contributing-to-packages.md) has some extra information.
 
 ## License
 

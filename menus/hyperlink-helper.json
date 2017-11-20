@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Insert Hyperlink (URL from Clipboard)",
+        "command": "hyperlink-helper:insert"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hyperlink-helper",
+          "submenu": [
+            {
+              "label": "Insert Hyperlink (URL from Clipboard)",
+              "command": "hyperlink-helper:insert"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

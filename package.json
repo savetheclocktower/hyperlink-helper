@@ -1,0 +1,15 @@
+{
+  "name": "hyperlink-helper",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Wraps selected text in a hyperlink using a URL copied to the clipboard.",
+  "keywords": [],
+  "activationCommands": {
+    "atom-text-editor": "hyperlink-helper:insert"
+  },
+  "repository": "https://github.com/savetheclocktower/hyperlink-helper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
